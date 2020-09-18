@@ -1,3 +1,4 @@
+import 'package:Difesa/pages/login_page.dart';
 import 'package:Difesa/pages/main_dashboard.dart';
 
 import 'package:flutter/material.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: {
-        '/': (context) => MainDashboard(),
+        '/': (context) => LoginPage(),
+        'Safe_Dashboard': (context) => MainDashboard(),
       },
     );
   }
