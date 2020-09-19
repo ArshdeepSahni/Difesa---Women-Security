@@ -6,6 +6,8 @@ import 'package:Difesa/shared/widgets/circular_button.dart';
 import 'package:Difesa/shared/widgets/gradient.dart';
 import 'package:flutter/material.dart';
 
+import 'package:animated_widgets/animated_widgets.dart';
+
 class MainDashboard extends StatefulWidget {
   @override
   _MainDashboardState createState() => _MainDashboardState();

@@ -92,4 +92,14 @@ class Constants {
   static IconData sirenIcon = Icons.notification_important;
   static IconData taxiIcon = Icons.local_taxi;
   static IconData firIcon = Icons.find_in_page;
+
+  // static Function taxiButton = () async {
+  //   Position position = await Geolocator()
+  //       .getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+  //   final url = "http://book.olacabs.com/?lat=" +
+  //       position.latitude.toString() +
+  //       "&lng=" +
+  //       position.longitude.toString() +
+  //       "&category=compact&utm_source=12343&drop_lat=28682640&drop_lng=77.370486&dsw=yes";
+  // };
 }
