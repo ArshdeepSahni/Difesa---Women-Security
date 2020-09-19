@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Smart Luminous System</title>
+    <title>Guardian</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -18,9 +18,9 @@
     <link href="../../assets/css/demo.css" rel="stylesheet" />
 </head>
 
-<body>
+<body>  
     <div class="wrapper">
-        <div class="sidebar" data-color="orange" data-image="../assets/img/sidebar-5.jpg">
+        <div class="sidebar" data-color="" data-image="../assets/img/sidebar-5.jpg">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -29,7 +29,7 @@
             <div class="sidebar-wrapper">
                 <div class="logo text-center">
                     <a href="./dashboard.html" class="simple-text logo-normal">
-                        Thapar University
+                        Guardian
                     </a>
                 </div>
                 <div class="user">
@@ -62,21 +62,15 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="/">
+                        <a class="nav-link" href="/dashboard">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/addRoom">
+                        <a class="nav-link" href="./mapuser">
                             <i class="nc-icon nc-puzzle-10"></i>
-                            <p>Setup Lights</p>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/manage">
-                            <i class="nc-icon nc-notes"></i>
-                            <p>Manage Lights</p>
+                            <p>EMERGENCY LIST</p>
                         </a>
                     </li>
                     <li class="nav-item ">
@@ -86,11 +80,12 @@
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/members">
+                        <a class="nav-link" href="/member">
                             <i class="nc-icon nc-paper-2"></i>
                             <p>Members</p>
                         </a>
-                    </li>
+                    </li>    
+
                 </ul>
             </div>
         </div>
@@ -196,7 +191,7 @@
                                                     <div class="col-md-8">
                                                         <div class="form-group">
                                                             <label for="exampleInputEmail1">Email address</label>
-                                                            <input type="email"name="email" required class="form-control" placeholder="Thapar.edu Email">
+                                                            <input type="email"name="email" required class="form-control" placeholder="@gmail.com">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -225,12 +220,10 @@
                                                         <div class="form-group">
                                                             <label>Department</label>
                                                             <select  name="dept" required class="form-control" value="">
-                                                                <option value="CSED">CSED</option>
-                                                                <option value="ESED">ESED</option>
-                                                                <option value="ECED">ECED</option>
-                                                                <option value="CE">CE</option>
-                                                                <option value="ME">ME</option>
-                                                                <option value="CHE">CHE</option>
+                                                                <option value="ESED">CONTROLLER</option>
+                                                                <option value="CSED">AMBULANCE DRIVER</option>
+                                                                <option value="ECED">BLOOD HOUSE</option>
+                                                                <option value="CE">HOSPITAL</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -239,7 +232,7 @@
                                                             <label>Authority</label>
                                                             <select class="form-control"  name="auth" id="auth">
                                                                 <option value="Admin">Admin</option>
-                                                                <option value="Teachers">Teachers</option>
+                                                
                                                             </select>
                                                         </div>
                                                     </div>
