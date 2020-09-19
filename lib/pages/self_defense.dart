@@ -1,6 +1,6 @@
 import 'package:align_positioned/align_positioned.dart';
 import 'package:Difesa/data/data.dart';
-import 'package:Difesa/models/emergency_tutorial.dart';
+import 'package:Difesa/models/defense_tutorial.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 

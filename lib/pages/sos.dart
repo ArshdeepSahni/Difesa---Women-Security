@@ -116,8 +116,7 @@ class SOSPage extends StatelessWidget {
             color: Colors.white,
           ),
           child: FlatButton(
-            // onPressed: Constants.policeStaionFunction,
-            onPressed: () {},
+            onPressed: Constants.policeStaionFunction,
             child: GradientWidget(
               gradient: Gradients.sosGradient,
               child: AlignPositioned(
