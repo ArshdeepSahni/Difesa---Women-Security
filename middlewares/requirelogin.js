@@ -4,11 +4,11 @@ require('firebase/auth');
 
 
 module.exports = (req, res, next) => {
-    firebase.auth().onAuthStateChanged(function(user) {
+    firebase.auth().onAuthStateChanged((user) => {
     
         if (!user) {
             return res.render('signin');
         }
-        });
+    });
     next();
 };
